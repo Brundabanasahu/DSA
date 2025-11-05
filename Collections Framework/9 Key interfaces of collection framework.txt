@@ -1,0 +1,10 @@
+9 Key interfaces of collection framework:
+1~Collection
+2~List
+3~Set
+4~SortedSet
+5~NavigableSet
+6~Queue 
+7~Dequeue
+8~Map
+9~Navigable Map

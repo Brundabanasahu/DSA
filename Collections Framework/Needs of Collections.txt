@@ -1,0 +1,14 @@
+
+Needs of Collections:
+~An Array is an indexed collection of fixed number of homogeneous data elements.
+~the main advatnges of array is we can represent multiple values with a single variable.
+~So that reusability of the code will be imporoved.
+
+Limitation of Array:
+~Array are fixed in size means once we created the array we can't change their size based on our requirements.  
+
+To Overcome the Limitation of Array we should go for Collections:-
+~Collections are growable in nature means we can change their size based on our requirements.
+~it can be both homogenous and heterogeneous.
+~it can be implemented by some standard data structure.
+  

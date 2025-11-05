@@ -1,0 +1,8 @@
+Diffrence between Arrays and Collections:
+
+1~Arrays are fixed in size but Collections are growable in nature.
+2~With respect to memory arrays are not recomanded but with respect to memory collections are recommnaded.
+3~with respect to performance arrays are recommnaded but collections are not.
+4~Arrays hold only homogenous but collections can hold both homogenous and heterogenouns.
+5~Not based on standard data structure but collections can
+6~Arrays can hold both primitive and object but collections can hold only object not primitive.
