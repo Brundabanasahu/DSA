@@ -1,0 +1,5 @@
+Rules or Techniques before to do Patterns Question:-
+    1.For the outer loop,we have to focous on the no of lines.
+    2.For the inner loop ,we should focous on the columns.
+    3.Whatever we want to print it may be character,number or * that should be print inside the inner loop only.
+    4.Observe Symmetry(Optional)
