@@ -1,0 +1,16 @@
+Arrays:
+	~An Array is an indexed collection of fixed number of homogenous data elements.
+	~the main advantages of arrays is we can represents multiple values with a single variable.
+	~so that reusability of the code will be improved.
+
+Limitation of the Arrays:
+	~Arrays is fixed in size.
+	~once we create a array we can not change their size.
+	
+Advantages of Collection:
+	~Growable in natures.
+	~Homogenous & Heterogenous Elements.
+	~Standard Data Structures
+	
+	
+	
