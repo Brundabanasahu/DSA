@@ -1,0 +1,6 @@
+What is collection:
+	If we want to represent a group of individual objects as a single entity then we should go for collection.
+
+What is Collection Framework:
+	It defines several classes and interfaces which can be used a group of objects as a single entity.
+ 	

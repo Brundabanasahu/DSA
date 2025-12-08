@@ -1,0 +1,15 @@
+Arrays:
+	~Fixed in size.
+	~With respect to memory it is not recommended.
+	~performance is Good.
+	~only Homogenous.
+	~Underlying Data Structure is not Recommended.
+	~Primitive and Objects are hold.
+
+Collection:
+	~Growable in nature.
+	~With respect to memory it is recommended.
+	~performance is not Good.
+	~Both Homogenous and Heterogenous.
+	~Underlying Data Structure is Recommended.
+	~Only Objects are hold.

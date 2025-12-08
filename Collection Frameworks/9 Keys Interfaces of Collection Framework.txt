@@ -1,0 +1,6 @@
+9 Keys Interfaces of Collection Framework:
+	
+1.Collection:
+	~If we want to represent a group of individual objects as a single entity then we should go for Collection.
+	~Collection interfaces defines the most common methods which are applicable for any collection objects
+	~in general collection interface is considered as root interface of collection framework.
