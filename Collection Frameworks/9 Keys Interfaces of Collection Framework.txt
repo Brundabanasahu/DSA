@@ -4,3 +4,36 @@
 	~If we want to represent a group of individual objects as a single entity then we should go for Collection.
 	~Collection interfaces defines the most common methods which are applicable for any collection objects
 	~in general collection interface is considered as root interface of collection framework.
+
+
+2.List:
+	~List is Child Interface of collection.
+	~If we want to represent a group of individual objects as a single entity where duplicates are allowed and insertion order preserved then we should go for list.
+
+3.Set:
+	~ It is the child Interface of collection.
+	~If  we want to represent a group of individual objects as a single entity where duplicate are not allowed and insertion order not preserved then we should go for set.
+
+4.Sorted Set:
+	~It is the child interface of set.
+	~If we want to represent a group of individual objects as a single entity where duplicates are not allowed but all objects should be inserted according to some sorting order then we should go for SortedSet.
+
+5.NavigableSet:
+	~It is the child interface of SortedSet if defines several methods for navigation purpose. 
+
+6.Queue:
+	~It is child interface of collection.
+	~If we want to represent a group of individual objects prior to processing then we should go for queue.
+
+7.Map:
+	~It is not child interface of collection.
+	~If we want to represent a group of individual objects as key value pairs then should go for map.
+
+8.SortedMap:
+	~It is child interface of  map.
+	~if we want to represent a group of key value pair according to some order of key we should go for SortedMap.
+
+9.NavigableMap:
+	~It is child interface of SortedMap.
+	~It is the child interface of Sorted map,it defines several utility methods for navigation purpose.
+

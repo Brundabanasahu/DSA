@@ -1,0 +1,6 @@
+Collection:
+	~It is an interface which can be used to represent a group of individual objects as a single entity.
+
+
+Collections:
+	~It is an utility class present in java.util.package to define several utility methods for collection objects.

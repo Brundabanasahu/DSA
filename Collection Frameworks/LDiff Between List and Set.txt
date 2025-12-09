@@ -1,0 +1,7 @@
+List:
+	~Duplicates are allowed.
+	~Insertion order is preserved.
+
+Set:
+	~Duplicates are not allowed.
+	~Insertion order is not preserved.
