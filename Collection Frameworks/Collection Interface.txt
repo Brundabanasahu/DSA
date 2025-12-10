@@ -1,0 +1,4 @@
+Collection Interface:
+	~If we want to represent a group of individual objects as single entity the we should go for collection.
+	~In general collection interface is considered as root interface of collection framework.
+	~collection interface defines the most common methods which are applicable for any collection objects.
