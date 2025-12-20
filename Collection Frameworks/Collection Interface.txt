@@ -2,3 +2,17 @@ Collection Interface:
 	~If we want to represent a group of individual objects as single entity the we should go for collection.
 	~In general collection interface is considered as root interface of collection framework.
 	~collection interface defines the most common methods which are applicable for any collection objects.
+
+Methods in  Collections:
+	~boolean add(object o)
+	~boolean addAll(Collection c)
+	~boolean remove(object o)
+	~boolean addAll(Collection  c)
+	~boolean retainAll(Collection c):To remove the all the objects except those present in c
+	void clear()
+	~boolean contains(object o)
+	~boolean containsAll(Collection c)
+	~boolean isEmpty()
+	~int size();
+	~object[] toArray();
+	~Iterator iterator()
