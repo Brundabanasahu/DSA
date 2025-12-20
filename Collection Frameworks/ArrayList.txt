@@ -1,0 +1,49 @@
+ArrayList:
+~The underlined data structure resized array or growable.
+~duplicates are allowed.
+~insertion order is preserved.
+~heterogenous objects are allowed [except treeset and treemap everywhere heterogeneous objects are allowed].
+~null insertion is possible.
+
+
+Constructors:
+Creates an empty arraylist obkect with default initial capacity 10.once array list reaches its map capacity a new array list will be created with new capacity=(current capacity*3/2)+1. 
+
+1.ArrayList al=new ArrayList();
+2. ArrayList al=new ArrayList(int intialCapacity);
+3.ArrayList al=new ArrayList(Collection c);
+
+
+//Demo Program
+
+import java.util.*;
+public class ArrayListdemo {
+    public static void main(String args[])
+    {
+        ArrayList l=new ArrayList<>();
+        l.add("B");
+        l.add("R");
+        l.add(null);
+        System.out.println(l);//[B,R,null]
+        l.remove(2);
+        System.out.println(l);//[B,R]
+        l.add(2,"S");
+        l.add("P");
+        System.out.println(l);//[B,R,S,P]
+    }
+}
+
+~usually we can use collection to hold and transfer objects from one place to another place, to provide support for this requirements every collection already implements serializable and cloneable interface.
+
+~ArrayList and vector classes implements RandomAccess interface so that we can access any random elements with the same speed.
+
+~hence if our frequent operation is retrieval operation then ArrayList Is the best.
+
+
+RandomAccess:
+~Present in java.util package.
+~it doesn't contain any methods and it is Marker interface.
+
+
+~Arraylist is the best choice if our frequent operation is retrieval operation 
+~Arraylist is the worst choice if our frequent operation is insertion or deletion in the middle.
