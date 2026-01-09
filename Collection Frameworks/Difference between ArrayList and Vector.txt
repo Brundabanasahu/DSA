@@ -1,0 +1,6 @@
+Difference between ArrayList and Vector:
+
+~Arraylist is non-synchronised and vector is synchronised.
+~Arraylist is not thread safe and vector is thread safe.
+~Arraylist is performance is high and vector performance is low.
+~Arraylist is introduced in 1.2v it is non-legacy and vector introduced in 1.0v it is legacy.
