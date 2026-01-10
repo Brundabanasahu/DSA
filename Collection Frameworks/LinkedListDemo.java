@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
-        LinkedList l1=new LinkedList();
+        LinkedList<Object> l1=new LinkedList<>();
         l1.add("Bulbul");
         l1.add(28);
         l1.add(null);
