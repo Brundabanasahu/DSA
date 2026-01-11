@@ -1,0 +1,29 @@
+ LinkedList:
+	~The underlying data structures is double linked list.
+	~insertion order is preserved.
+	~duplicates are allowed
+	~heterogenous object are allowed.
+	~null insertion is possible.
+
+	~LinkedList implements serializable and cloneable interface but not random-access interface.
+	~LinkedList is the best choice if our frequent operation is insertion or deletion in the middle.
+	~LinkedList is the worst choice If our frequents operation is retrieval operation.
+
+
+	~Usually we can use LinkedList to implements stack and queue to provide support for this requirement LinkedList class defines following specific methods.
+
+	1.void addFirst();
+	2.void addLast();
+	3.object getFirst();
+	4.object getLast();
+	5.object removeFirst();
+	6.object removeLast();
+
+
+LinkedList Constructors:
+	LinkedList l1=new LinkedList();
+	creates an empty LinkedList 
+	
+
+	LinkedList l1=new LinkedList(Collection c);
+	creates an equivalent LinkedList object for the given collection

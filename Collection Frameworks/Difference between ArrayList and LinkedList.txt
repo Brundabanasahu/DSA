@@ -1,0 +1,5 @@
+Difference between ArrayList and LinkedList:
+~ArrayList is best Retrieval and LinkedList is best choice in the insertion and deletion in the middle.
+~ArrayList is the worst choice if our frequent operation is insertion or deletion and LinkedList is the worst choice if our frequent operation is retrieval operation.
+~underlaying data structures for arrayList is resizable or growable array and underlying data structure is double linked List.
+~ArrayList implements random-access interface and LinkedList doesn't implements random-access Interface.
