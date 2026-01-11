@@ -1,0 +1,17 @@
+Vector:
+
+~It is Resizable and Growable Array.
+~Duplicates Are allowed.
+~Insertion order is preserved.
+~Null values are allowed.
+~Heterogenous Objects are allowed.
+~Serializable & cloneable interface.
+~RandomAccess Interface.
+~Most are present objects are Synchronised.
+~vector is thread Safe.
+~Best choice if the frequent operation is retrieval.
+
+
+Vector methods:
+
+~ 
