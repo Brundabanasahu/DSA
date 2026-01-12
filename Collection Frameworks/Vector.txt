@@ -14,4 +14,29 @@ Vector:
 
 Vector methods:
 
-~ 
+~ add(Object o)
+~add(int index,Object o)
+~addElement(Object o)
+
+For removing objects:
+
+~Remove(Object o)
+~removeElement(Object o)
+~remove(int index)
+~RemoveElementAt(int index)
+~clear()
+~removeAllElements()
+
+To retrieve elements:
+
+~Object get(int index)
+~object elementAt(int index)
+~object firstElement()
+~object lastElement()
+
+Constructor of vector class:
+
+~Vector v =new Vector();
+~Vector v=new Vector(int initialCapacity);
+~Vector v=new Vector(int initialCapacity,int incrementalCapacity);
+~Vector v=new Vector(Collection c);
