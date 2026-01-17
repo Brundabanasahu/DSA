@@ -1,0 +1,18 @@
+Cursor of Java:
+ ~if we want to retrieve objects one by one form the collection,then we should go for the cursor.
+~There are three types of cursor are there:
+		~Enumeration
+		~iterator
+		~ListIterator
+
+
+Enumeration:
+~Introduced in 1.0 version.
+~We can use Enumeration to get objects one by one from the old collection objects.
+~we can create enumeration object by using elements() method of vector class.
+	public Enumeration elements();
+
+ex: Enumeration e=v. elements();
+~the enumeration has two methods
+	1.public boolean hasMoreElements();
+	2.public object nextElement();

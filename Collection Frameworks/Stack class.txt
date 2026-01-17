@@ -1,1 +1,19 @@
 Stack class:
+~it is a child class of vector.
+~it is specially designed class for last in last out order(LIFO).
+
+
+Constructor of stack:
+~Stack s=new Stack();
+
+Methods:
+~push-to inserting an object to the stack.
+~pop-to remove and return top of the stack.
+~peak-to return the top of the stack without removal of object.
+~search-if the specified object is available it returns its offset from the top of the stack 
+	    -if the object is not available then it return -1.
+~
+
+
+
+
