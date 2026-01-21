@@ -1,0 +1,17 @@
+Iterator:
+~We can apply iterator concept for any collection object hence it is universal cursor.
+~by using iterator we can perform both read and remove operation.
+
+~we can create iterator object by using iterator() method of collection interface.
+		public iterator iterator();
+	ex:
+		iterator itr=C. iterator();
+
+Methods:
+~public Boolean hasNext()
+~public Object next()
+~public void remove()
+
+Limitation of Iterator:
+~only forward direction
+~
