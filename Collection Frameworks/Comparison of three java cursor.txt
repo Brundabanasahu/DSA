@@ -1,0 +1,13 @@
+Comparison of three java cursor:
+Enumeration	Iterator	ListIterator
+only legacy class	Any collection class	only list class
+only forward direction	only forward direction	both forward and backward
+
+only read access	both read and remove 	read,remove,replace and addition of new objects
+by using element() method of vector class	by using iterator() method of collection interface	by using listiertaion() methods of list interface
+2 methods hasmoreElements() nextElements()	3 methods:hasNext()
+next()
+remove()
+	9 methods
+yes it is legacy	no it is not legecy	it is not legacy
+		

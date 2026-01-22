@@ -1,2 +1,24 @@
 ListIterator:
-~
+~It is Bidirectional cursor 
+~we can perform replacement, addition and read and remove operations
+
+~we can create listitearator object by using listiterator() method of list interface.
+	public ListIterator listiterator()
+	ex:
+		ListIterator itr=l.listiterator();
+
+Methods:
+	forward direction:
+		~public Boolean hasNext()
+		~public void next()
+		~public int nextIndex()
+
+	backward direction:
+		~public Boolean hasPrevious()
+		~public void previous()
+		~public int Previou sindex()
+	
+	Other capability method:
+		~public void remove()
+		~public void set(object new)
+		~public void add(object new)
