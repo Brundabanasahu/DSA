@@ -14,4 +14,4 @@ Methods:
 
 Limitation of Iterator:
 ~only forward direction
-~
+~only read,remove and we can't perform replacement.
