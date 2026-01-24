@@ -1,0 +1,14 @@
+set:
+~Set is the child interface of collection.
+~If we want to represent a group of individual object as a single entity where duplicates are not allowed and insertion order is not preserved then we should go for set.
+~set interface doesn't contain any new methods so we have to use only collection interface methods.
+
+
+HashSet:
+~underlying data structures is hashtable.
+~duplicates are not allowed.
+~insertion order is not preserved.
+~heterogenous object are allowed.
+~null insertion is possible.
+~serializable and clonable interface are implements.
+~best for search operations.
