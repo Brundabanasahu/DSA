@@ -12,3 +12,7 @@ HashSet:
 ~null insertion is possible.
 ~serializable and clonable interface are implements.
 ~best for search operations.
+
+
+Load factor/fill ratio:
+~After loading the how much factor a new hashset object will be created that factor is called load factor/fill ratio.
