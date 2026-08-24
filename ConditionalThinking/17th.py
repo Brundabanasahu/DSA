@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a*a + b*b == c*c or a*a + c*c == b*b or b*b + c*c == a*a:
+    print("Pythagorean Triplet")
+else:
+    print("Not a Pythagorean Triplet")
